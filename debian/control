@@ -1,6 +1,6 @@
 Source: gsettings-qt
 Priority: extra
-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Maintainer: Adam Boardman <adamboardman@gmail.com>
 Build-Depends: debhelper (>= 9),
                pkg-config,
                libglib2.0-dev,
@@ -12,6 +12,7 @@ Build-Depends: debhelper (>= 9),
                qml-module-qttest,
                qml-module-qtquick2,
                xvfb,
+               xauth,
 Standards-Version: 3.9.8
 Section: libs
 Homepage: https://github.com/gemian/gsettings-qt
