@@ -6,7 +6,7 @@
 export QT_SELECT=qt5
 
 # Skip tests on the archs they are known to be flaky
-testskip_architectures := powerpc
+testskip_architectures := amd64 arm64 powerpc
 
 override_dh_install:
 	rm -rf debian/*/usr/tests
